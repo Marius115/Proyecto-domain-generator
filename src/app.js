@@ -1,11 +1,16 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
+//write your code here
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+var pronouns = ["the", "our"];
+var adjs = ["giant", "sus", "legit"];
+var nouns = ["proyect", "potato", "job"];
+var extensions = [".com", ".net", ".ua"];
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+for (let pronoun of pronouns) {
+  for (let adj of adjs) {
+    for (let noun of nouns) {
+      for (let extension of extensions) {
+        console.log(pronoun + adj + noun + extension);
+      }
+    }
+  }
+}
